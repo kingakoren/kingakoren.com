@@ -1,6 +1,8 @@
 h1 {
-  color: blue;
+  color: green;
+  font-weight: 400;
+  text-align: center;
 }
 body{
-   font-family: 'Open Sans',serif;
+   font-family: 'Open Sans',sans-serif;
 }
