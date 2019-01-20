@@ -1,2 +1,2 @@
 # kingakoren.com
-My website
+My professional website
