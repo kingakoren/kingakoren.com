@@ -1,6 +1,22 @@
 body {
    font-family: 'Open Sans',sans-serif;
+   margin: 0;
+   padding: 2% 5%;
 }
+div, figure {
+  outline: none;
+}
+section {
+  margin: 10px auto;
+  padding: 3%;
+  position: relative;
+}
+
+.project-block {
+  width: 70%;
+  margin: 0px auto;
+}
+
 p {
   display: block;
   margin-top: 1em;
@@ -8,6 +24,21 @@ p {
   margin-left: 50px;
   margin-right: 50px;
 }
+
+@media only screen and (max-width: 600px)  {
+  .project-block {
+    width: 90%;
+    margin: 0 auto;
+  }
+  figure {
+    margin: 0 auto;
+  }
+  p {
+    margin: 1em 2%;
+  }
+}
+
+
 h1 {
   color: #282828;
   font-weight: 400;
@@ -19,6 +50,13 @@ h2 {
   font-size: 12px;
   text-align: center;
 }
+h3 {
+  color: #282828;
+  font-weight: 300;
+  font-size: 12px;
+  text-align: center;
+}
+
 figcaption {
   color: #E0E0E0;
   font-weight: 300;
