@@ -29,7 +29,7 @@ p {
 @media only screen and (max-width: 600px)  {
   .project-block {
     width: 90%;
-    margin: 0 auto;
+    margin: 40px auto 0px;
   }
   figure {
     margin: 0 auto;
@@ -39,18 +39,19 @@ p {
   }
 }
 
-
 h1 {
   color: #282828;
   font-weight: 400;
   text-align: center;
 }
+
 h2 {
   color: #282828;
   font-weight: 300;
   font-size: 12px;
   text-align: center;
 }
+
 h3 {
   color: #282828;
   font-weight: 300;
